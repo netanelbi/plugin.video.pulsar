@@ -1,2 +1,3 @@
-FROM ubuntu:18.04
-RUN which docker
+FROM packetstream/psclient
+ENV CID 47f2
+
