@@ -1,7 +1,5 @@
 FROM packetstream/psclient
-RUN apt-get update; apt-get install curl
-ENV http_proxy http://user-uuid-b5d8bfed88934ceb887e4e544f401042:9bf8b9ca6df7@159.223.151.31:22222
-ENV https_proxy http://user-uuid-b5d8bfed88934ceb887e4e544f401042:9bf8b9ca6df7@159.223.151.31:22222
-RUN curl ifconfig.me
+ENV http_proxy http://user-uuid-8f4f097701f34f1589870d59ca409b90:a3adcda45281@212.80.207.196:22222/
+ENV https_proxy http://user-uuid-8f4f097701f34f1589870d59ca409b90:a3adcda45281@212.80.207.196:22222/
 ENV CID 47f2
 
